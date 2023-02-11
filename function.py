@@ -10,7 +10,7 @@ import math as math
 
 # hex str request = SOI + VER + ADR + CID1 + CID2 + LENGTH + INFO + CHKSUM + EOI
 
-# hex str response = SOI + VER + ADR + RTN + LENGTH + INFO + CHKSUM + EOI
+# hex str response = SOI + VER + ADR + CID1 + RTN + LENGTH + INFO + CHKSUM + EOI
 
 # hex str soi = "37 45"
 
