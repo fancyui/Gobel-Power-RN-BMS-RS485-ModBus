@@ -69,7 +69,7 @@ def field_length(info):
 #caculate hex value for field chksum
 
 # hex str middle_data = VER + ADR + CID1 + CID2 + LENGTH + INFO
-# example: middle_data = "11 01 46 C2 C0 04 C0 06 C5 5C"
+# example: middle_data = "11 01 46 C2 C0 04 C2 06 C5 5C"
 
 def field_chksum(middle_data):
     
