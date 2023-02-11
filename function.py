@@ -8,8 +8,6 @@ Created on Sat Feb 11 17:09:47 2023
 import numpy as np
 import math as math
 
-info = "C2 06 C5 5C"
-
 #caculate hex value of field length
 
 # str info = "C2 06 C5 5C"
