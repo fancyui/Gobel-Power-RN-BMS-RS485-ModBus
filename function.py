@@ -33,7 +33,7 @@ def field_length(info):
     return length
 
 
-#caculate hex value of field chksum
+#caculate hex value for field chksum
 
 # str middle_data = "C2 06 C5 5C"
 
