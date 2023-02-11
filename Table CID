@@ -1,0 +1,88 @@
+Nomination:
+SU: Upper Device
+SM: Lower Device
+
+-----------------------------------------------------------------------
+CID2    CID3    Function
+-----------------------------------------------------------------------
+0xA0    /       Read communication protocol version
+0xA1    /       Read Pack SN
+0xA2    /       Write Pack SN
+0xA3    /       Read product info
+-----------------------------------------------------------------------
+0xA8    0x01     Switch SM to IAP mode
+0xA8    0x02     Read SM IAP version
+0xA8    0x03     Read SM working mode
+0xA8    0x04     Comparison result of update file from SU
+0xA8    0x05     Storage location of update file from SU
+0xA8    0x06     Switch working mode of SM
+----------------------------------------------------------------------
+0xB0    /        Read analog data of Battery
+0xB1    /        Read all warning, protection and faults info
+----------------------------------------------------------------------
+0xC0    0x01    Read Cell_OVP (cell over voltage)
+0xC0    0x02    Read Cell_UVP (cell under voltage)
+0xC0    0x03    Read Cell Fail Voltage
+0xC0    0x04    Read Pack_OVP (pack over voltage)
+0xC0    0x05    Read Pack_UVP (pack under voltage)
+0xC0    0x06    Read CHG OC (charge over current)
+0xC0    0x07    Read DSG OC1 (discharge over current)
+0xC0    0x08    Read DSG SC (discharge short circuit)
+0xC0    0x09    Read Charging Temp
+0xC0    0x0A    Read Discharging Temp
+0xC0    0x0B    Read Ambient Temp
+0xC0    0x0C    Read MOS Temp
+0xC0    0x0D    Read Heating-Film Temp
+0xC0    0x0E    Read SOC Low
+---------------------------------------------------------------------
+0xC1    0x01    Write Cell_OVP (cell over voltage)
+0xC1    0x02    Write Cell_UVP (cell under voltage)
+0xC1    0x03    Write Cell Fail Voltage
+0xC1    0x04    Write Pack_OVP (pack over voltage)
+0xC1    0x05    Write Pack_UVP (pack under voltage)
+0xC1    0x06    Write CHG OC (charge over current)
+0xC1    0x07    Write DSG OC1 (discharge over current)
+0xC1    0x08    Write DSG SC (discharge short circuit)
+0xC1    0x09    Write Charging Temp
+0xC1    0x0A    Write Discharging Temp
+0xC1    0x0B    Write Ambient Temp
+0xC1    0x0C    Write MOS Temp
+0xC1    0x0D    Write Heating-Film Temp
+0xC1    0x0E    Write SOC Low
+--------------------------------------------------------------------
+0xC2    0x01    Read Pack Setup
+0xC2    0x02    Read Current and Charging Para
+0xC2    0x03    Read Power Parameter
+0xC2    0x04    Read Balance Parameter
+0xC2    0x05    Read Communication Setting
+0xC2    0x06    Read Version Log
+0xC2    0x07    Read BMS Production Info
+0xC2    0x08    Read Protocol Version
+0xC2    0x09    Read RTC Time Setting
+0xC2    0x0A    Read Pack Production Info
+0xC2    0x0B    Read Function Switch
+-------------------------------------------------------------------
+0xC3    0x01    Write Pack Setup
+0xC3    0x02    Write Current and Charging Para
+0xC3    0x03    Write Power Parameter
+0xC3    0x04    Write Balance Parameter
+0xC3    0x05    Write Communication Setting
+0xC3    0x06    Write Version Log
+0xC3    0x07    /
+0xC3    0x08    /
+0xC3    0x09    Write RTC Time Setting
+0xC3    0x0A    Write Pack Production Info
+0xC3    0x0B    Write Function Switch
+------------------------------------------------------------------
+0xC8    0x01    Read Calibration State
+0xC8    0x02    Read Calibration Value
+0xC9    0x01    Reset Calibration State
+0xC9    0x02    Write Calibration Value
+------------------------------------------------------------------
+0xD0    0x01    Read Balance State
+0xD0    0x02    Read Function Switch State
+0xD1    0x01    Turn On/Off Balance State
+0xD1    0x02    Turn On/Off Function
+------------------------------------------------------------------
+0xE0    0x01    Read number of parallel connected devices
+------------------------------------------------------------------
