@@ -24,11 +24,11 @@ def field_length(info):
     
     mod_lenid = np.mod(sum_lenid,16)
     
-    lcksum = 255-mod_lenid+1-240
+    lchksum = 255-mod_lenid+1-240
     
-    lcksum_up = lcksum * pow(2,12)
+    lchksum_up = lchksum * pow(2,12)
     
-    length = hex(lcksum_up + lenid)
+    length = hex(lchksum_up + lenid)
     
     return length
 
