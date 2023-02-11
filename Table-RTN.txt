@@ -1,0 +1,11 @@
+RTN   Implication
+----------------------------------------------------
+0x00   Normal
+0x01   VER Error
+0x02   CHKSUM Error
+0x03   LCHKSUM Error
+0x04   CID2 Invalid
+0x05   Command Format Error
+0x06   Invalid Data
+0x90   ADR Error User Defined
+0x91   Communication Error User Defined
