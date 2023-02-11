@@ -57,7 +57,7 @@ def field_length(info):
     
     mod_lenid = np.mod(sum_lenid,16)
     
-    # ~ bin(mod_sum) + 1
+    # ~ bin(mod_lenid) + 1
     lchksum = 255-mod_lenid+1-240
     
     lchksum_up = lchksum * pow(2,12)
