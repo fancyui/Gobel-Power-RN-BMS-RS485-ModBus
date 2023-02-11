@@ -32,5 +32,29 @@ def field_length(info):
     
     return length
 
+
+#caculate hex value of field chksum
+
+# str middle_data = "C2 06 C5 5C"
+
+def field_chksum(middle_data):
     
+    data_array = bytearray.fromhex(middle_data)
     
+    data_list = list(data_array)
+    
+    sum_data_list = sum(data_list)
+    
+    mod_sum = np.mod(sum_data_list,65536)
+    
+    if mod_sum < 256:
+        chksum = 255-mod_sum+1
+        
+    elif mod_sum < 65280:
+        chksum = 65279-mod_sum+1+256
+        
+    else:
+        chksum = 255-mod_sum+1+65280
+        
+    return hex(chksum)
+
