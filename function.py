@@ -57,6 +57,7 @@ def field_length(info):
     
     mod_lenid = np.mod(sum_lenid,16)
     
+    # ~ bin(mod_sum) + 1
     lchksum = 255-mod_lenid+1-240
     
     lchksum_up = lchksum * pow(2,12)
@@ -81,6 +82,7 @@ def field_chksum(middle_data):
     
     mod_sum = np.mod(sum_data_list,65536)
     
+    # ~ hex(mod_sum) + 1
     if mod_sum < 256:
         chksum = 255-mod_sum+1
         
