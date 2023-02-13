@@ -8,9 +8,9 @@ Data            Name                    Unit            Result                  
 46              cid1                    /               /
 00              RTN                     /               check RTN table
 F0 4D           length                  /               61517
-B0              cid2                    /               /
-00              cid3                    /               /
-C5 5C           default                 /               /
+B0              cid2                    /               check CID table
+00              cid3                    /               check CID table
+C5 5C           /                       /               /
 01              total pack number       /               1
 01              #1 pack adr             /               1
 FA 61           current                 10mA            -14390                      signed
