@@ -7,7 +7,7 @@ Data            Name                    Unit            Result                  
 01              adr                     /               1
 46              cid1                    /               /
 00              RTN                     /               check RTN table
-F0 4D           length                  /               61517
+F0 4D           length                  /               /
 B0              cid2                    /               check CID table
 00              cid3                    /               check CID table
 C5 5C           /                       /               /
