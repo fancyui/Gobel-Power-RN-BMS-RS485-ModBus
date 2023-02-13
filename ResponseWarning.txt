@@ -17,7 +17,7 @@ C5 5C           /                               /               /
 01              total pack number               /               1
 ------------------------------------
 01              #1 pack adr                     /               1
-10              cells number                    /               check Warning Code table
+10              cells number                    /               16
 00              cell1 warning                   /               check Warning Code table
 00              cell2 warning                   /               check Warning Code table
 00              cell3 warning                   /               check Warning Code table
