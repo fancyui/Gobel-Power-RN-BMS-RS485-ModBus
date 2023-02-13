@@ -24,7 +24,7 @@ FA 61           current                 10mA            -14390                  
 2F              SOC                     %               47%
 64              SOH                     %               100%
 01              parallel number         /               1 (if the pack is slave: 0)
-00              slave adr               /               0 (if the pack master: 0)
+00              slave adr               /               0 (if the pack is master: 0)
 10              Cell number             /               16
 0C 8D           Cell1 voltage           1mV             3213
 0C 8D           Cell2 voltage           1mV             3213
