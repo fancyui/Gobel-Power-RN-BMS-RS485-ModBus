@@ -18,3 +18,31 @@ C5 5C           /                           /               /
 01              total pack number           /               1
 ------------------------------------
 01              pack adr                    /               1
+01 00           State code                  /               check Inverter State table
+01              Parallel number             /               1
+01              CAN port number             /               1
+00 01           CAN protocol                /               check Inverter Protocol table
+01              RS485 port number           /               1
+00 02           RS485 protocol              /               check Inverter Protocol table
+02 3E           Max charge voltage          100mV           57400
+01 A0           Max discharge voltage       100mV           41600
+00              /
+00              SOC endoff                  %               0%
+01 5E           Max charge current          100mA           35000
+F9 ED           Max discharge current       100mA           -15500                       signed
+00              /
+00              /
+00 00           /
+00 00           /
+00 00           /
+00 00           /
+00 00           /
+85 17 AB E1     crc32 
+------------------------------------
+{#2 pack data}
+------------------------------------
+F7 B5           chksum 
+0D              end
+----------------------------------------------------------------------------------------------
+
+
