@@ -17,7 +17,7 @@ B0              cid2                        /               check CID table
 C5 5C           /                           /               /
 01              total pack number           /               1
 ------------------------------------
-01              #1 pack adr                 /               /
+01              pack adr                    /               /
 0D AC           COV alarm                   mV              3500
 0E 42           COV protection1             mV              3650
 03 E8           COV protection1 delay       mS              1000
