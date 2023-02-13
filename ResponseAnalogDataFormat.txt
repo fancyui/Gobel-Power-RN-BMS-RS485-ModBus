@@ -41,11 +41,11 @@ FA 61           current                 10mA            -14390                  
 0C 8D           Cell14 voltage          1mV             3213
 0C 8D           Cell15 voltage          1mV             3213
 0C 85           Cell16 voltage          1mV             3205
-04              NTC number              /               4
-0B B0           NTC1                    0.1K            26.05                       signed
-0B AD           NTC2                    0.1K            25.75                       signed
-0B AE           NTC3                    0.1K            25.85                       signed
-0B AD           NTC4                    0.1K            25.75                       signed
+04              Cell NTC number         /               4
+0B B0           Cell NTC1               0.1K            26.05                       signed
+0B AD           Cell NTC2               0.1K            25.75                       signed
+0B AE           Cell NTC3               0.1K            25.85                       signed
+0B AD           Cell NTC4               0.1K            25.75                       signed
 01              MOS NTC number          /               1
 0B B9           MOS NTC1                0.1K            26.95                       signed
 01              Ambient NTC number      /               1
