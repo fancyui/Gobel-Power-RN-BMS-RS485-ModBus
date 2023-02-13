@@ -9,7 +9,7 @@ Data            Name                    Unit            Result                  
 00              RTN                     /               check RTN table
 F0 4D           length                  /               61517
 B0              cid2                    /               /
-00              ci d3                   /               /
+00              cid3                    /               /
 C5 5C           default                 /               /
 01              total pack number       /               1
 01              #1 pack ads             /               1
