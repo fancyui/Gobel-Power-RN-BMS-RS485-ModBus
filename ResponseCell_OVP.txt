@@ -27,7 +27,7 @@ C5 5C           /                           /               /
 03 E8           COV protection2 delay       mS              1000
 0D 48           COV protection2 release     mV              3400
 00 32           /
-FF 38           COV protection release     10mA             -2000                       signed
+FF 38           COV protection release      10mA             -2000                       signed
 60              /
 88 17 4D 9D     crc32
 ------------------------------------
