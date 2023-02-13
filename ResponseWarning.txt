@@ -3,16 +3,64 @@
 # response = 37 45 11 01 46 00 30 49 B1 00 C5 5C 01 01 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 00 00 00 00 01 00 01 00 00 00 00 00 00 00 00 F6 FB FF FF 55 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 01 5E 06 13 D0 BD 54 01 F6 A6 0D
 
 ----------------------------------------------------------------------------------------------
-Data            Name                    Unit            Result                      Type
+Data            Name                            Unit            Result                      Type
 ----------------------------------------------------------------------------------------------
-37 45           head                    /               /
-11              ver                     /               1.1
-01              adr                     /               1
-46              cid1                    /               /
-00              RTN                     /               check RTN table
-F0 4D           length                  /               /
-B0              cid2                    /               check CID table
-00              cid3                    /               check CID table
-C5 5C           /                       /               /
-01              total pack number       /               1
+37 45           head                            /               /
+11              ver                             /               1.1
+01              adr                             /               1
+46              cid1                            /               /
+00              RTN                             /               check RTN table
+F0 4D           length                          /               /
+B0              cid2                            /               check CID table
+00              cid3                            /               check CID table
+C5 5C           /                               /               /
+01              total pack number               /               1
 ------------------------------------
+01              #1 pack adr                     /               1
+10              cells number                    /               check Warning Code table
+00              cell1 warning                   /               check Warning Code table
+00              cell2 warning                   /               check Warning Code table
+00              cell3 warning                   /               check Warning Code table
+00              cell4 warning                   /               check Warning Code table
+00              cell5 warning                   /               check Warning Code table
+00              cell6 warning                   /               check Warning Code table
+00              cell7 warning                   /               check Warning Code table
+00              cell8 warning                   /               check Warning Code table
+00              cell9 warning                   /               check Warning Code table
+00              cell10 warning                  /               check Warning Code table
+00              cell11 warning                  /               check Warning Code table
+00              cell12 warning                  /               check Warning Code table
+00              cell13 warning                  /               check Warning Code table
+00              cell14 warning                  /               check Warning Code table
+00              cell15 warning                  /               check Warning Code table
+00              cell16 warning                  /               check Warning Code table
+04              NTC number                      /               4         
+00              NTC1 warning                    /               check Warning Code table
+00              NTC2 warning                    /               check Warning Code table
+00              NTC3 warning                    /               check Warning Code table
+00              NTC4 warning                    /               check Warning Code table
+01              Ambient NTC number              /               1
+00              Ambient NTC warning             /               check Warning Code table
+01              MOS NTC number                  /               1
+00              MOS NTC warning                 /               check Warning Code table
+00              Charge current warning          /               check Warning Code table
+00              Pack voltage warning            /               check Warning Code table
+00              Discharge current warning       /               check Warning Code table
+00 00 00 00     Protection state code           /               check Warning Code table
+F6 FB FF FF     Function control code           /               check Warning Code table
+55 00 00 00     Working state code              /               check Warning Code table
+00 00 00 00     Fault state code                /               check Warning Code table
+00 00 00 00     Warning state code              /               check Warning Code table
+00 00 00 00     Cells balance state code        /               check Warning Code table
+00 00 00 00     Cells balance state code        /               check Warning Code table
+01 00           BMS&Inverter State code         /               check Warning Code table
+01 5E           Max Charge current              100mA           35000
+06 13           Max Discharge current           100mA           155000
+D0 BD 54 01     crc32                           /
+-----------------------------------------
+{#2 pack data}
+-----------------------------------------
+F6 A6           chksum
+0D              end
+------------------------------------------------------------------------------------------------
+
