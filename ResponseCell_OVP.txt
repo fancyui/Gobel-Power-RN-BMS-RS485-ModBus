@@ -1,1 +1,30 @@
+# example
+# request = 37 45 11 01 46 C0 C0 04 C0 01 C5 5C FC 42 0D
+# response = 37 45 11 01 46 00 00 1F C0 01 C5 5C 01 01 0D AC 0E 42 03 E8 0D 48 03 E8 0E D8 03 E8 0D 48 00 32 FF 38 60 88 17 4D 9D F4 F9 0D
 
+
+37 45 
+11 
+01 
+46 
+00 
+00 1F 
+C0 
+01 
+C5 5C 
+01 
+01 
+0D AC COV alarm mV 3500
+0E 42  COV protection1 mV 3650
+03 E8 COV protection1 delay mS 1000
+0D 48 COV protection1 release mV 3400
+03 E8 /
+0E D8 COV protection2 mV 3800
+03 E8 COV protection2 delay mS 1000
+0D 48 COV protection2 release mV 3400
+00 32 /
+FF 38 COV protection release 10mA -2000
+60 /
+88 17 4D 9D crc32
+F4 F9 chksum
+0D end
