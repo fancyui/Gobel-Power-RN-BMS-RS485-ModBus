@@ -4,7 +4,7 @@ Data            Name                    Unit            Result                  
 ----------------------------------------------------------------------------------------------
 37 45           head                    /               /
 11              ver                     /               1.1
-01              ads                     /               1
+01              adr                     /               1
 46              cid1                    /               /
 00              RTN                     /               check RTN table
 F0 4D           length                  /               61517
@@ -12,7 +12,7 @@ B0              cid2                    /               /
 00              cid3                    /               /
 C5 5C           default                 /               /
 01              total pack number       /               1
-01              #1 pack ads             /               1
+01              #1 pack adr             /               1
 FA 61           current                 10mA            -14390                      signed
 00 00 C8 91     voltage                 1mV             51345
 35 5B           remain capacity         10mAh           136590
@@ -23,7 +23,7 @@ FA 61           current                 10mA            -14390                  
 2F              SOC                     %               47%
 64              SOH                     %               100%
 01              parallel number         /               1 (if the pack is slave: 0)
-00              slave address           /               0 (if the pack master: 0)
+00              slave adr               /               0 (if the pack master: 0)
 10              Cell number             /               16
 0C 8D           Cell1 voltage           1mV             3213
 0C 8D           Cell2 voltage           1mV             3213
