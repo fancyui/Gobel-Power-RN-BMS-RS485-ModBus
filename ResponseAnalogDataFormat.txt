@@ -1,0 +1,58 @@
+# Example response = 37 45 11 01 46 00 F0 4D B0 00 C5 5C 01 01 FA 61 00 00 C8 91 35 5B 05 71 48 6D 60 00 03 2F 64 01 00 10 0C 8D 0C 8D 0C 8B 0C 8C 0C 8B 0C 8B 0C 8E 0C 8E 0C 8F 0C 88 0C 89 0C 8D 0C 8E 0C 8D 0C 8D 0C 85 04 0B B0 0B AD 0B AE 0B AD 01 0B B9 01 0B C1 48 D4 F2 A5 E6 78 0D
+
+Data            Name                    Unit            Result                      Type
+----------------------------------------------------------------------------------------------
+37 45           head                    /               /
+11              ver                     /               1.1
+01              ads                     /               1
+46              cid1                    /               /
+00              RTN                     /               check RTN table
+F0 4D           length                  /               61517
+B0              cid2                    /               /
+00              ci d3                   /               /
+C5 5C           default                 /               /
+01              total pack number       /               1
+01              #1 pack ads             /               1
+FA 61           current                 10mA            -14390                      signed
+00 00 C8 91     voltage                 1mV             51345
+35 5B           remain capacity         10mAh           136590
+05              /
+71 48           total capacity          10mAh           290000
+6D 60           design capacity         10mAh           280000
+00 03           cycle number            /               3
+2F              SOC                     %               47%
+64              SOH                     %               100%
+01              parallel number         /               1 (if the pack is slave: 0)
+00              slave address           /               0 (if the pack master: 0)
+10              Cell number             /               16
+0C 8D           Cell1 voltage           1mV             3213
+0C 8D           Cell2 voltage           1mV             3213
+0C 8B           Cell3 voltage           1mV             3211
+0C 8C           Cell4 voltage           1mV             3212
+0C 8B           Cell5 voltage           1mV             3211
+0C 8B           Cell6 voltage           1mV             3211
+0C 8E           Cell7 voltage           1mV             3214
+0C 8E           Cell8 voltage           1mV             3214
+0C 8F           Cell9 voltage           1mV             3215
+0C 88           Cell10 voltage          1mV             3208
+0C 89           Cell11 voltage          1mV             3209
+0C 8D           Cell12 voltage          1mV             3213
+0C 8E           Cell13 voltage          1mV             3214
+0C 8D           Cell14 voltage          1mV             3213
+0C 8D           Cell15 voltage          1mV             3213
+0C 85           Cell16 voltage          1mV             3205
+04              NTC number              /               4
+0B B0           NTC1                    0.1K            26.05                       signed
+0B AD           NTC1                    0.1K            25.75                       signed
+0B AE           NTC1                    0.1K            25.85                       signed
+0B AD           NTC1                    0.1K            25.75                       signed
+01              MOS NTC number          /               1
+0B B9           MOS NTC1                0.1K            26.95                       signed
+01              Ambient NTC number      /               1
+0B C1           Ambient NTC             0.1K            27.75                       signed
+{#2 pack data}
+48 D4 F2 A5     crc32                   /               /
+E6 78           chksum                  /               /
+0D              end                     /               /
+
+
