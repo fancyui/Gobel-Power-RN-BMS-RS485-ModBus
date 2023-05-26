@@ -1,3 +1,17 @@
 
+1    Cell voltage      int16     1mV        -32.768~+32.768V
+2    Pack voltage      int32     1mV        -107~+107V
+3    Temperature       int16     0.1K       0K~6000K
+4    Current           int16     10mA       -327.68~+327.67A
+5    μA                int16     1μA        -32.768~+32.768mA
+6    SOC               unit8     %          0~100%
+7    Pack capacity     unit16    10mAh      0~655.35Ah
+8    μS                unit16    1μS        0~32.768mS
+9    mS                unit16    1mS        0~65.5S
+10   S                 unit16    1S         0~18.2H
+11   Percent           unit8     %          0~100%
+12   mΩ                unit16    mΩ         0~65.535
+13   μΩ                unit16    μΩ         0~65.535mΩ
 
+℃ + 273.15 = K
 
