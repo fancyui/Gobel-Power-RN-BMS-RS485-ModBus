@@ -452,8 +452,7 @@ In order to facilitate faster transmission and easier expansion, the following d
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=left style='text-align:left'><span lang=EN-US>Always
-  0x46</span></p>
+  <p class=MsoNormal align=left style='text-align:left'><span lang=EN-US></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:5'>
