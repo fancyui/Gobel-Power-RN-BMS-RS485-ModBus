@@ -848,3 +848,135 @@ Example:
  Therefore, LCHKSUM is 1101B.
  
 Please check function field_length() for reference.
+
+<p class=MsoNormal><span lang=EN-US>5. Field INFO: Information data</span></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=187 colspan=2 valign=top style='width:140.1pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>Field Name</span></p>
+  </td>
+  <td width=85 rowspan=2 valign=top style='width:63.75pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>Byte Count</span></p>
+  </td>
+  <td width=440 rowspan=2 valign=top style='width:330.25pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>Description</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=102 valign=top style='width:76.3pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>Main Field</span></p>
+  </td>
+  <td width=85 valign=top style='width:63.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>Sub Field</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=102 rowspan=3 valign=top style='width:76.3pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>Info Head</span></p>
+  </td>
+  <td width=85 valign=top style='width:63.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>CID2</span></p>
+  </td>
+  <td width=85 valign=top style='width:63.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>1</span></p>
+  </td>
+  <td width=440 valign=top style='width:330.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>While send is SU, CID2=0</span></p>
+  <p class=MsoNormal><span lang=EN-US>While sender is SM, return CID2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=85 valign=top style='width:63.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>CID3</span></p>
+  </td>
+  <td width=85 valign=top style='width:63.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>1</span></p>
+  </td>
+  <td width=440 valign=top style='width:330.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>Extension or subcommand of CID2.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=85 valign=top style='width:63.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>Reserved</span></p>
+  </td>
+  <td width=85 valign=top style='width:63.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>2</span></p>
+  </td>
+  <td width=440 valign=top style='width:330.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>0XC5, 0X5C</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=187 colspan=2 valign=top style='width:140.1pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>Info Data</span></p>
+  </td>
+  <td width=85 valign=top style='width:63.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>According to CID2/CID3</span></p>
+  </td>
+  <td width=440 valign=top style='width:330.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>Check Info Data Table</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=187 colspan=2 valign=top style='width:140.1pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>Info CRC324</span></p>
+  </td>
+  <td width=85 valign=top style='width:63.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>4</span></p>
+  </td>
+  <td width=440 valign=top style='width:330.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>1. Info Data: Information data which is
+  verified by performing a CRC32 check. Each byte is converted into long data
+  and then CRC32 calculation is performed. The remaining part is padded with
+  0x00 if the data is insufficient. It is important to note that Info Data has
+  high bytes first.</span></p>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  <p class=MsoNormal><span lang=EN-US>2. CRC32: A type of cyclic redundancy
+  check (CRC) which uses 32 bits.</span></p>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  <p class=MsoNormal><span lang=EN-US>3. Ethernet Polynomial: A polynomial used
+  in Ethernet networks for error detection. It is also known as the CRC-32-IEEE
+  802.3 polynomial. The polynomial is represented by the hexadecimal number
+  0x4C11DB7 and can be expressed as
+  X32+X26+X23+X22+X16+X12+X11+X10+X8+X7+X5+X4+X2+X+1.</span></p>
+  </td>
+ </tr>
+</table>
