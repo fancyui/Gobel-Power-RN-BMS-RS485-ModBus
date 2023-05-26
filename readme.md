@@ -981,6 +981,8 @@ Please check function field_length() for reference.
  </tr>
 </table>
 
+
 6. Field CHKSUM
+
 Please check funcition field_chksum().
 
