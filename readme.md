@@ -718,6 +718,7 @@ When the sender is an upper computer, CID2 is the sent command, referring to the
 When the sender is a lower computer, it is the feedback response status code, referring to the RTN table.
 
 4. Field LENGTH: Length of Field INFO
+Length of the INFO field, including a 4-bit checksum and a 12-bit data length value:
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
  style='border-collapse:collapse;border:none'>
  <tr>
@@ -824,3 +825,16 @@ When the sender is a lower computer, it is the feedback response status code, re
   </td>
  </tr>
 </table>
+LENID: Indicates the number of bytes in the INFO field item. When LENID=0, INFO is empty, that is, there is no such item. LENID has only 12 bits, so the maximum number of bytes cannot exceed 4095.
+LCHKSUM: The CHKSUM value of LENID with 12 bits, which is calculated as follows:
+ 1>Addition: D11D10D9D8 + D7D6D5D4 + D3D2D1D0
+ 2>Take the remainder when divided by 16
+ 3>Take the complement and add 1.
+
+Example:
+ INFO byte count is 18, which is LENID = 0000 0000 0010B
+ Sum: 0000B+0001B+0010B = 0011B
+ Modulo 16 remainder: 0011B
+ Inverted and added by 1: 1101B
+ Therefore, LCHKSUM is 1101B.
+Please check function for reference.
