@@ -1,1 +1,33 @@
+# 0: Disable, 1: Enable
 
+Byte1:
+Bit0  Sound alarm
+Bit1  Light alarm
+Bit2  Current limit 5A
+Bit3  Current limit 10A
+Bit4  SOC lights
+Bit5  Stationary balance
+Bit6  Passive balancer
+Bit7  SHIP state
+
+Byte2:
+Bit0  Charge MOS
+Bit1  Discharge MOS
+Bit2  Test Mode
+Bit3  Cell over voltage
+Bit4  Cell under voltage
+Bit5  Pack over voltage
+Bit6  Pack under voltage
+Bit7  Charge over current
+
+Byte3:
+Bit0: Discharge over current
+Bit1: Cell over temperature
+Bit2: Cell under temperature
+Bit3: Ambience temperature
+Bit4: MOS high temperature
+Bit5: ON/OFF button
+Bit6~Bit7:  Reserved
+
+Byte4:
+Bit0~Bit7 Reserved
