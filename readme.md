@@ -953,7 +953,7 @@ Please check function field_length() for reference.
  <tr>
   <td width=187 colspan=2 valign=top style='width:140.1pt;border:solid windowtext 1.0pt;
   border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span lang=EN-US>Info CRC324</span></p>
+  <p class=MsoNormal><span lang=EN-US>Info CRC32</span></p>
   </td>
   <td width=85 valign=top style='width:63.75pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
