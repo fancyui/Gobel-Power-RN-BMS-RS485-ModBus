@@ -980,3 +980,7 @@ Please check function field_length() for reference.
   </td>
  </tr>
 </table>
+
+6. Field CHKSUM
+Please check funcition field_chksum().
+
