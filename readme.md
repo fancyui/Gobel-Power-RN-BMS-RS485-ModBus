@@ -716,3 +716,111 @@ In the instruction sent by the host computer, ADR represents the address of the 
 CID refers to the Control Identification Code. CID1 is a fixed value of 0X46H, and CID2 is classified into command code and feedback information according to the sender. 
 When the sender is an upper computer, CID2 is the sent command, referring to the Control Identification Code Table for CID2 and CID3. 
 When the sender is a lower computer, it is the feedback response status code, referring to the RTN table.
+
+4. Field LENGTH: Length of Field INFO
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=356 colspan=8 valign=top style='width:266.9pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>High bits</span></p>
+  </td>
+  <td width=356 colspan=8 valign=top style='width:267.2pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>Low bits</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=178 colspan=4 valign=top style='width:133.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>LCHKSUM</span></p>
+  </td>
+  <td width=534 colspan=12 valign=top style='width:400.7pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>LENID (Number of bytes of ASCII code
+  transmitted in INFO)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=44 valign=top style='width:33.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>D15</span></p>
+  </td>
+  <td width=44 valign=top style='width:33.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>D14</span></p>
+  </td>
+  <td width=44 valign=top style='width:33.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>D13</span></p>
+  </td>
+  <td width=44 valign=top style='width:33.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>D12</span></p>
+  </td>
+  <td width=44 valign=top style='width:33.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>D11</span></p>
+  </td>
+  <td width=44 valign=top style='width:33.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>D10</span></p>
+  </td>
+  <td width=45 valign=top style='width:33.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>D9</span></p>
+  </td>
+  <td width=45 valign=top style='width:33.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>D8</span></p>
+  </td>
+  <td width=45 valign=top style='width:33.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>D7</span></p>
+  </td>
+  <td width=45 valign=top style='width:33.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>D6</span></p>
+  </td>
+  <td width=45 valign=top style='width:33.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>D5</span></p>
+  </td>
+  <td width=45 valign=top style='width:33.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>D4</span></p>
+  </td>
+  <td width=45 valign=top style='width:33.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>D3</span></p>
+  </td>
+  <td width=45 valign=top style='width:33.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>D2</span></p>
+  </td>
+  <td width=45 valign=top style='width:33.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>D1</span></p>
+  </td>
+  <td width=45 valign=top style='width:33.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>D0</span></p>
+  </td>
+ </tr>
+</table>
