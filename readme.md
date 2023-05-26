@@ -704,19 +704,30 @@ In order to facilitate faster transmission and easier expansion, the following d
   </td>
  </tr>
 </table>
-
-
+<br>
+<br>
+<br>
+<br>
 1. Field VER: Protocol Version Number
 VER is one byte, the high 4 bits of which represent the major version number of the protocol, and the low 4 bits represent the minor version number of the protocol. For example, when the protocol version number is 2.1, VER is 21H, and when the protocol version number is 2.10, VER is 2AH. The protocol version number of this protocol is V1.0, that is, VER is 10H.
-
+<br>
+<br>
+<br>
+<br>
 2. Field ADR: Device Address
 In the instruction sent by the host computer, ADR represents the address of the target slave, which can be 0X01-0XFE. When it is 0XFF, it means that the target slave is all slaves. However, only some commands support this method.
-
+<br>
+<br>
+<br>
+<br>
 3. CID1, CID2 Fields: Control Identification Code
 CID refers to the Control Identification Code. CID1 is a fixed value of 0X46H, and CID2 is classified into command code and feedback information according to the sender. 
 When the sender is an upper computer, CID2 is the sent command, referring to the Control Identification Code Table for CID2 and CID3. 
 When the sender is a lower computer, it is the feedback response status code, referring to the RTN table.
-
+<br>
+<br>
+<br>
+<br>
 4. Field LENGTH: Length of Field INFO
 Length of the INFO field, including a 4-bit checksum and a 12-bit data length value:
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
@@ -848,7 +859,10 @@ Example:
  Therefore, LCHKSUM is 1101B.
  
 Please check function field_length() for reference.
-
+<br>
+<br>
+<br>
+<br>
 <p class=MsoNormal><span lang=EN-US>5. Field INFO: Information data</span></p>
 
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
@@ -980,8 +994,10 @@ Please check function field_length() for reference.
   </td>
  </tr>
 </table>
-
-
+<br>
+<br>
+<br>
+<br>
 6. Field CHKSUM
 
 Please check funcition field_chksum().
