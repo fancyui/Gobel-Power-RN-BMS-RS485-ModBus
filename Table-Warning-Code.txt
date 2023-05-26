@@ -1,1 +1,4 @@
-
+1    0x00     Normal
+2    0x01     Lower than low limit
+3    0x02     Higher than high limit
+4    0x03     Other
