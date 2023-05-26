@@ -1,3 +1,5 @@
+# 0: Normal, 1: Protected
+
 Byte1:
 Bit0  Cell over voltage
 Bit1  Cell under voltage
