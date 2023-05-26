@@ -1,1 +1,28 @@
+Byte1:
+Bit0  Cell over voltage
+Bit1  Cell under voltage
+Bit2  Pack over voltage
+Bit3  Pack under voltage
+Bit4  Over charge current
+Bit5  Over discharge current
+Bit6  Discharge short circuit
+Bit7  Charger high voltage
+
+Byte2:
+Bit0  Charge high temperature
+Bit1  Discharge high temperature
+Bit2  Charge low temperature
+Bit3  Discharge low temperature
+Bit4  MOS high temperature
+Bit5  Ambience high temperature
+Bit6  Ambience low temperature
+Bit7  Full charge
+
+Byte3:
+Bit0  Low SOC
+Bit1  High temperatue difference
+Bit2~Bit7 Reserved
+
+Byte4:
+Bit0~Bit7 Reserved
 
