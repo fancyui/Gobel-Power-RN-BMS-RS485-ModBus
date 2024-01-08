@@ -10,25 +10,25 @@
 
 #Format of InfoData
 
-XX       Total Pack Qantity                     1-254	    	unit8
-XX       Pack Number                            1-254	    	unit16
-XX XX    BMS&Inverter Status                    1-254		    unit16
-XX       Parallel Number                        0-255		    unit16
-XX       CAN-Port Qantity                       0-255	    	unit16	Writable
-XX XX    CAN-Port Protocol                      0-65535  		unit16	Writable
-XX       USART Port Qantity                     0-255		    unit16	Writable
-XX XX    USART Port Protocol                    0-65535	  	unit16	Writable
-XX XX    Max Charge Voltage                     100mV		    unit16	Writable
-XX XX    Min Discharge Voltage                  100mV	    	unit16	Writable
-XX       Floating SOC                           %		      	unit8		Writable
-XX       Fully Charge SOC                       %		      	unit8		Writable
-XX XX    Max Charge Current                     100mA	    	unit16	Writable	Signed
-XX XX    Max Discharge Current                  100mA	    	unit16	Writable	Signed
-XX       Force Charge Start SOC                 %		      	unit8		Writable
-XX       Force Charge Stop SOC                  %			      unit8		Writable
-XX XX    Force Charge Start Cell Voltage        1mV	    		unit16	Writable
-XX XX    Force Charge Stop Cell Voltage         1mV	    		unit16	Writable
-XX XX    Low Temp Limit Current Start Temp      1K	    		unit16	Writable
-XX XX    Low Temp Limit Current Stop Temp       1K		    	unit16	Writable
-XX XX    Low Temp Charge Current                100mA	    	unit16	Writable	Signed
+XX       Total Pack Qantity                     1-254       unit8
+XX       Pack Number                            1-254       unit16
+XX XX    BMS&Inverter Status                    1-254       unit16
+XX       Parallel Number                        0-255       unit16
+XX       CAN-Port Qantity                       0-255       unit16   Writable
+XX XX    CAN-Port Protocol                      0-65535     unit16   Writable
+XX       USART Port Qantity                     0-255       unit16   Writable
+XX XX    USART Port Protocol                    0-65535     unit16   Writable
+XX XX    Max Charge Voltage                     100mV       unit16   Writable
+XX XX    Min Discharge Voltage                  100mV       unit16   Writable
+XX       Floating SOC                           %           unit8    Writable
+XX       Fully Charge SOC                       %           unit8    Writable
+XX XX    Max Charge Current                     100mA       unit16   Writable	Signed
+XX XX    Max Discharge Current                  100mA       unit16   Writable	Signed
+XX       Force Charge Start SOC                 %           unit8    Writable
+XX       Force Charge Stop SOC                  %           unit8    Writable
+XX XX    Force Charge Start Cell Voltage        1mV         unit16   Writable
+XX XX    Force Charge Stop Cell Voltage         1mV         unit16   Writable
+XX XX    Low Temp Limit Current Start Temp      1K          unit16   Writable
+XX XX    Low Temp Limit Current Stop Temp       1K          unit16   Writable
+XX XX    Low Temp Charge Current                100mA       unit16   Writable	Signed
 
