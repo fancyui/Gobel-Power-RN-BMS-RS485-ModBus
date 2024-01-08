@@ -1,0 +1,13 @@
+Byte 1:
+Bit0: Inverter Connection State
+Bit1: BMS Prallel State
+Bit2: If Master Pack
+Bit3: 
+Bit4: If Charge Enabled
+Bit5: If Discharge Enabled
+Bit6: If Force Charge Enabled
+Bit7: If Fully Charged
+
+
+Byte 2:
+Bit0: If Pack/Cell Over Voltage
