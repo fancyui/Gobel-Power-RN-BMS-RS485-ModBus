@@ -23,7 +23,7 @@ XX XX    Min Discharge Voltage                  100mV       int16    Writable
 XX       Floating SOC                           %           unit8    Writable
 XX       Fully Charge SOC                       %           unit8    Writable
 XX XX    Max Charge Current                     100mA       int16    Writable	Signed
-XX XX    Max Discharge Current                  100mA       int16     Writable	Signed
+XX XX    Max Discharge Current                  100mA       int16    Writable	Signed
 XX       Force Charge Start SOC                 %           unit8    Writable
 XX       Force Charge Stop SOC                  %           unit8    Writable
 XX XX    Force Charge Start Cell Voltage        1mV         int16    Writable
