@@ -1,4 +1,4 @@
 #Example
-#Send: 37 04 10 01 46 C2 10 0F C3 40 C5 5C INFODATA XX 0D
+#Send: 37 45 10 01 46 C2 10 0F C3 40 C5 5C INFODATA XX 0D
 
 #InfoData format should be same as that of Response-Inverter-Info
