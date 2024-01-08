@@ -6,7 +6,7 @@
 #Get all packs inverter settings:
 #Request: 37 45 10 FF 46 C2 C0 04 C2 40 C5 5C 0D
 
-#Response: 37 45 10 01 46 RTN XX XX C2 40 C5 5C INFODATA INFOCRC32 0D
+#Response: 37 45 10 01 46 RTN XX XX C2 40 C5 5C INFODATA INFOCRC32 0D 
 
 #Format of InfoData
 
