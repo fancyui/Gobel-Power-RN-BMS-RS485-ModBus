@@ -1,0 +1,6 @@
+Get first pack inverter settings:
+37 45 10 01 46 C2 C0 04 C2 40 C5 5C 0D
+
+Get all packs inverter settings:
+37 45 10 FF 46 C2 C0 04 C2 40 C5 5C 0D
+
